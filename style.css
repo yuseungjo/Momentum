@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+  }
+  
+
 *:focus {
     outline:none;
 }
@@ -41,7 +46,7 @@ header {
 
 
 #greeting {
-    margin: 180px 0px 0px 0px;
+    margin: 180px 0px 100px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,12 +54,14 @@ header {
 }
 
 #login-form {
-    margin: 180px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
 }
 
 h1#greeting.hidden {
-    display:hidden;
+    margin: 100px 0px 0px 0px;
 }
+
+
 
 #login-form input {
     opacity: 60%;
@@ -128,8 +135,11 @@ li {
 
 
 footer {
-    display: flex;
+    width: 100vw;
+    display: block;
     justify-content: center;
     text-align: center;
     align-content: flex-end;
+    position: absolute;
+    bottom: 0;
 }
