@@ -2,22 +2,33 @@
     outline:none;
 }
 
-html, body {
-    min-height: 100%;
-}
-
 * {
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
     box-sizing: border-box;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
 
-#weather {
+header {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    color: black;
+    display: flex;
     font-weight: 400;
     font-size: 12px;
+    margin: 0px;
+    padding; 0px;
+    background-color: white;
+    padding: 2px;
+    opacity: 70%;
 }
+
+
+
 
 .bgImage {
     position: absolute;
@@ -30,15 +41,25 @@ html, body {
 
 
 #greeting {
+    margin: 180px 0px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 45pt;
 }
 
+#login-form {
+    margin: 180px 0px 0px 0px;
+}
+
+h1#greeting.hidden {
+    display:hidden;
+}
 
 #login-form input {
+    opacity: 60%;
     text-align: center;
+    font-size: 40px;
 }
 
 .login-button {
@@ -85,12 +106,14 @@ li {
 }
 
 
+
 #quote {
-    display:flex;
+    display: relative;
     justify-content: center;
-    font-size: 45px;
-    align-items: flex-end;
+    align-items: end;
+    bottom: 
 }
+
 
 #quote span:first-child {
     font-style: italic;
@@ -104,10 +127,9 @@ li {
 
 
 
-#clock {
-    display:flex;
+footer {
+    display: flex;
     justify-content: center;
-    font-size: 45px;
-    align-items: flex-end;
+    text-align: center;
+    align-content: flex-end;
 }
-

@@ -7,13 +7,23 @@
     <style></style>
   </head>
   <body>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
+    <header>
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+      <div class="clock-div">
+        <span id="clock">00:00</span>
+      </div>
+    </header>
 
     <form class="hidden centerize-form" id="login-form">
-      <input required maxlength="15" type="text" placeholder="Who are you?" />
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="Type your name here"
+      />
       <br />
       <button class="login-button">Log In</button>
     </form>
@@ -25,13 +35,13 @@
     </form>
     <ul id="todo-list"></ul>
 
-    <h2 id="clock">00:00</h2>
-
-    <div id="quote">
-      <span></span>
-      <br />
-      <span></span>
-    </div>
+    <footer>
+      <div id="quote">
+        <span></span>
+        <br />
+        <span></span>
+      </div>
+    </footer>
 
     <script src="js/app.js"></script>
     <script src="js/clock.js"></script>
